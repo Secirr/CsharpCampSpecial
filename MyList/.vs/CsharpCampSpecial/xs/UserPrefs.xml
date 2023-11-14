@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{BB382329-ADA1-4BA3-BA9F-4651B8032F3F}|Default">
+﻿<Properties StartupConfiguration="{A409CA58-06FD-45B9-AB3D-D2AD87D3ECEA}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.OOP-2-LiveLesson PreferredExecutionTarget="MonoDevelop.Default" />
@@ -19,5 +19,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.OOP-3-LiveLesson PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.ClassMetotDemo-homework FirstBuild="True" />
 </Properties>
