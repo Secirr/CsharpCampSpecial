@@ -1,0 +1,15 @@
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/bin/Debug/net7.0/MyList
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/bin/Debug/net7.0/MyList.deps.json
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/bin/Debug/net7.0/MyList.runtimeconfig.json
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/bin/Debug/net7.0/MyList.dll
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/bin/Debug/net7.0/MyList.pdb
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/obj/Debug/net7.0/MyList.csproj.AssemblyReference.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/obj/Debug/net7.0/MyList.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/obj/Debug/net7.0/MyList.AssemblyInfoInputs.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/obj/Debug/net7.0/MyList.AssemblyInfo.cs
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/obj/Debug/net7.0/MyList.csproj.CoreCompileInputs.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/obj/Debug/net7.0/MyList.dll
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/obj/Debug/net7.0/refint/MyList.dll
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/obj/Debug/net7.0/MyList.pdb
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/obj/Debug/net7.0/MyList.genruntimeconfig.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/obj/Debug/net7.0/ref/MyList.dll
