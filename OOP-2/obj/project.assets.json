@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/MyList-homework.csproj",
-      "projectName": "MyList-homework",
-      "projectPath": "/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/MyList-homework.csproj",
+      "projectUniqueName": "/Users/kadirozdemir/Desktop/CsharpCampSpecial/OOP-2/OOP-2-LiveLesson.csproj",
+      "projectName": "OOP-2-LiveLesson",
+      "projectPath": "/Users/kadirozdemir/Desktop/CsharpCampSpecial/OOP-2/OOP-2-LiveLesson.csproj",
       "packagesPath": "/Users/kadirozdemir/.nuget/packages/",
-      "outputPath": "/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/obj/",
+      "outputPath": "/Users/kadirozdemir/Desktop/CsharpCampSpecial/OOP-2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kadirozdemir/.nuget/NuGet/NuGet.Config"

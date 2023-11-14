@@ -1,24 +1,23 @@
-﻿<Properties StartupConfiguration="{8D371ECD-886F-4C7A-BC5F-785B42230D2E}|Default">
+﻿<Properties StartupConfiguration="{BB382329-ADA1-4BA3-BA9F-4651B8032F3F}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ClassMetotDemo FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.MyList PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.ItemProperties.OOP-2-LiveLesson PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.MyList-homework PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="14" Column="23" />
+      <File FileName="Program.cs" Line="9" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CsharpCampSpecial" expanded="True">
-            <Node name="MyList" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
-          </Node>
+          <Node name="CsharpCampSpecial" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ClassMetotDemo-homework FirstBuild="True" />
 </Properties>

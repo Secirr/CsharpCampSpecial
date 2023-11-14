@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kadirozdemir/Desktop/CsharpCampSpecial/ClassMetotDemo/ClassMetotDemo.csproj",
-      "projectName": "ClassMetotDemo",
-      "projectPath": "/Users/kadirozdemir/Desktop/CsharpCampSpecial/ClassMetotDemo/ClassMetotDemo.csproj",
+      "projectUniqueName": "/Users/kadirozdemir/Desktop/CsharpCampSpecial/ClassMetotDemo/ClassMetotDemo-homework.csproj",
+      "projectName": "ClassMetotDemo-homework",
+      "projectPath": "/Users/kadirozdemir/Desktop/CsharpCampSpecial/ClassMetotDemo/ClassMetotDemo-homework.csproj",
       "packagesPath": "/Users/kadirozdemir/.nuget/packages/",
       "outputPath": "/Users/kadirozdemir/Desktop/CsharpCampSpecial/ClassMetotDemo/obj/",
       "projectStyle": "PackageReference",
