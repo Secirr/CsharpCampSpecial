@@ -7,18 +7,24 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../OOP-3-LiveLesson/Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="9" Column="17" />
+      <File FileName="../OOP-3-LiveLesson/ApplicationManager.cs" Line="1" Column="1" />
+      <File FileName="../OOP-3-LiveLesson/DatabaseLoggerService.cs" Line="1" Column="1" />
+      <File FileName="../OOP-3-LiveLesson/EntrepreneurCreditManager.cs" Line="1" Column="1" />
+      <File FileName="../OOP-3-LiveLesson/FileLoggerService.cs" Line="1" Column="1" />
+      <File FileName="../OOP-3-LiveLesson/HouseCreditManager.cs" Line="1" Column="1" />
+      <File FileName="../OOP-3-LiveLesson/ICreditManager.cs" Line="1" Column="1" />
+      <File FileName="../OOP-3-LiveLesson/PersonelCreditManager.cs" Line="1" Column="1" />
+      <File FileName="../OOP-3-LiveLesson/Program.cs" Line="8" Column="1" />
+      <File FileName="../OOP-3-LiveLesson/SmsLoggerService.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="CsharpCampSpecial" selected="True" />
-        </State>
+        <State name="__root__" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.OOP-3-LiveLesson PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.OOP-3-LiveLesson PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.ClassMetotDemo-homework FirstBuild="True" />
 </Properties>

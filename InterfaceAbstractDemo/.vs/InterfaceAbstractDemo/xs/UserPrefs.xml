@@ -1,0 +1,30 @@
+﻿<Properties NuGet.AddPackagesDialog.IncludePrerelease="True" StartupConfiguration="{EC390939-030B-4A9C-ABC2-B4FBD0E93B48}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.InterfaceAbstractDemo PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Program.cs" Line="19" Column="19" />
+      <File FileName="Abstract/ICustomerService.cs" />
+      <File FileName="Abstract/IEntity.cs" />
+      <File FileName="Concrete/NeroCustomerManager.cs" />
+      <File FileName="Abstract/BaseCustomerManager.cs" />
+      <File FileName="Abstract/ICustomerCheckService.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="InterfaceAbstractDemo" expanded="True">
+            <Node name="InterfaceAbstractDemo" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
