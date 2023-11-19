@@ -1,5 +1,5 @@
 ﻿using ClassMetotDemo;
-using deneme;
+
 
 Customer customer1 = new Customer();
 customer1.Id = 1;

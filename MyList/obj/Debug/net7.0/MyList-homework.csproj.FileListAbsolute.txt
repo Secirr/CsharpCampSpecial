@@ -1,0 +1,15 @@
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/bin/Debug/net7.0/MyList-homework
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/bin/Debug/net7.0/MyList-homework.deps.json
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/bin/Debug/net7.0/MyList-homework.runtimeconfig.json
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/bin/Debug/net7.0/MyList-homework.dll
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/bin/Debug/net7.0/MyList-homework.pdb
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/obj/Debug/net7.0/MyList-homework.csproj.AssemblyReference.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/obj/Debug/net7.0/MyList-homework.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/obj/Debug/net7.0/MyList-homework.AssemblyInfoInputs.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/obj/Debug/net7.0/MyList-homework.AssemblyInfo.cs
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/obj/Debug/net7.0/MyList-homework.csproj.CoreCompileInputs.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/obj/Debug/net7.0/MyList-homework.dll
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/obj/Debug/net7.0/refint/MyList-homework.dll
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/obj/Debug/net7.0/MyList-homework.pdb
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/obj/Debug/net7.0/MyList-homework.genruntimeconfig.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/MyList/obj/Debug/net7.0/ref/MyList-homework.dll

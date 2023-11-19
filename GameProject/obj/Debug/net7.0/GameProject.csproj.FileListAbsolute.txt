@@ -1,0 +1,15 @@
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/GameProject/obj/Debug/net7.0/GameProject.csproj.AssemblyReference.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/GameProject/obj/Debug/net7.0/GameProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/GameProject/obj/Debug/net7.0/GameProject.AssemblyInfoInputs.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/GameProject/obj/Debug/net7.0/GameProject.AssemblyInfo.cs
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/GameProject/obj/Debug/net7.0/GameProject.csproj.CoreCompileInputs.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/GameProject/bin/Debug/net7.0/GameProject
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/GameProject/bin/Debug/net7.0/GameProject.deps.json
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/GameProject/bin/Debug/net7.0/GameProject.runtimeconfig.json
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/GameProject/bin/Debug/net7.0/GameProject.dll
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/GameProject/bin/Debug/net7.0/GameProject.pdb
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/GameProject/obj/Debug/net7.0/GameProject.dll
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/GameProject/obj/Debug/net7.0/refint/GameProject.dll
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/GameProject/obj/Debug/net7.0/GameProject.pdb
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/GameProject/obj/Debug/net7.0/GameProject.genruntimeconfig.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/GameProject/obj/Debug/net7.0/ref/GameProject.dll

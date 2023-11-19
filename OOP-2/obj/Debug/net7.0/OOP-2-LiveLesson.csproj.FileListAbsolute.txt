@@ -1,0 +1,15 @@
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/OOP-2/bin/Debug/net7.0/OOP-2-LiveLesson
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/OOP-2/bin/Debug/net7.0/OOP-2-LiveLesson.deps.json
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/OOP-2/bin/Debug/net7.0/OOP-2-LiveLesson.runtimeconfig.json
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/OOP-2/bin/Debug/net7.0/OOP-2-LiveLesson.dll
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/OOP-2/bin/Debug/net7.0/OOP-2-LiveLesson.pdb
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/OOP-2/obj/Debug/net7.0/OOP-2-LiveLesson.csproj.AssemblyReference.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/OOP-2/obj/Debug/net7.0/OOP-2-LiveLesson.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/OOP-2/obj/Debug/net7.0/OOP-2-LiveLesson.AssemblyInfoInputs.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/OOP-2/obj/Debug/net7.0/OOP-2-LiveLesson.AssemblyInfo.cs
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/OOP-2/obj/Debug/net7.0/OOP-2-LiveLesson.csproj.CoreCompileInputs.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/OOP-2/obj/Debug/net7.0/OOP-2-LiveLesson.dll
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/OOP-2/obj/Debug/net7.0/refint/OOP-2-LiveLesson.dll
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/OOP-2/obj/Debug/net7.0/OOP-2-LiveLesson.pdb
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/OOP-2/obj/Debug/net7.0/OOP-2-LiveLesson.genruntimeconfig.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/OOP-2/obj/Debug/net7.0/ref/OOP-2-LiveLesson.dll

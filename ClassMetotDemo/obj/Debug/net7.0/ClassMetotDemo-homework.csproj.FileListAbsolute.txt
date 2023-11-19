@@ -1,0 +1,15 @@
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ClassMetotDemo/obj/Debug/net7.0/ClassMetotDemo-homework.csproj.AssemblyReference.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ClassMetotDemo/obj/Debug/net7.0/ClassMetotDemo-homework.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ClassMetotDemo/obj/Debug/net7.0/ClassMetotDemo-homework.AssemblyInfoInputs.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ClassMetotDemo/obj/Debug/net7.0/ClassMetotDemo-homework.AssemblyInfo.cs
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ClassMetotDemo/obj/Debug/net7.0/ClassMetotDemo-homework.csproj.CoreCompileInputs.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ClassMetotDemo/bin/Debug/net7.0/ClassMetotDemo-homework
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ClassMetotDemo/bin/Debug/net7.0/ClassMetotDemo-homework.deps.json
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ClassMetotDemo/bin/Debug/net7.0/ClassMetotDemo-homework.runtimeconfig.json
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ClassMetotDemo/bin/Debug/net7.0/ClassMetotDemo-homework.dll
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ClassMetotDemo/bin/Debug/net7.0/ClassMetotDemo-homework.pdb
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ClassMetotDemo/obj/Debug/net7.0/ClassMetotDemo-homework.dll
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ClassMetotDemo/obj/Debug/net7.0/refint/ClassMetotDemo-homework.dll
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ClassMetotDemo/obj/Debug/net7.0/ClassMetotDemo-homework.pdb
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ClassMetotDemo/obj/Debug/net7.0/ClassMetotDemo-homework.genruntimeconfig.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ClassMetotDemo/obj/Debug/net7.0/ref/ClassMetotDemo-homework.dll
