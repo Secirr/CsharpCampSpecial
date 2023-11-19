@@ -1,4 +1,7 @@
-﻿<Properties StartupConfiguration="{53828012-3F58-49EF-9A33-9A197DACB662}|Default">
+﻿<Properties StartupConfiguration="{646DBB10-9B46-475E-8FFF-74B495BE30EE}|Default">
+  <MonoDevelop.Ide.ItemProperties.GameProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.OOP-2-LiveLesson PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="../GameProject/Program.cs">
     <Files>
       <File FileName="../OOP-3-LiveLesson/ApplicationManager.cs" />
@@ -39,13 +42,9 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.OOP-3-LiveLesson PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.GameProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.OOP-2-LiveLesson PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.MyList-homework PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.LinqProject PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
 </Properties>

@@ -1,0 +1,15 @@
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/LinqProject/bin/Debug/net7.0/LinqProject
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/LinqProject/bin/Debug/net7.0/LinqProject.deps.json
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/LinqProject/bin/Debug/net7.0/LinqProject.runtimeconfig.json
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/LinqProject/bin/Debug/net7.0/LinqProject.dll
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/LinqProject/bin/Debug/net7.0/LinqProject.pdb
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/LinqProject/obj/Debug/net7.0/LinqProject.csproj.AssemblyReference.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/LinqProject/obj/Debug/net7.0/LinqProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/LinqProject/obj/Debug/net7.0/LinqProject.AssemblyInfoInputs.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/LinqProject/obj/Debug/net7.0/LinqProject.AssemblyInfo.cs
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/LinqProject/obj/Debug/net7.0/LinqProject.csproj.CoreCompileInputs.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/LinqProject/obj/Debug/net7.0/LinqProject.dll
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/LinqProject/obj/Debug/net7.0/refint/LinqProject.dll
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/LinqProject/obj/Debug/net7.0/LinqProject.pdb
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/LinqProject/obj/Debug/net7.0/LinqProject.genruntimeconfig.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/LinqProject/obj/Debug/net7.0/ref/LinqProject.dll
