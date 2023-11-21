@@ -1,0 +1,17 @@
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ReCapProject/DataAccess/bin/Debug/net7.0/DataAccess.deps.json
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ReCapProject/DataAccess/bin/Debug/net7.0/DataAccess.runtimeconfig.json
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ReCapProject/DataAccess/bin/Debug/net7.0/DataAccess.dll
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ReCapProject/DataAccess/bin/Debug/net7.0/DataAccess.pdb
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ReCapProject/DataAccess/bin/Debug/net7.0/Entities.dll
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ReCapProject/DataAccess/bin/Debug/net7.0/Entities.pdb
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ReCapProject/DataAccess/obj/Debug/net7.0/DataAccess.csproj.AssemblyReference.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ReCapProject/DataAccess/obj/Debug/net7.0/DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ReCapProject/DataAccess/obj/Debug/net7.0/DataAccess.AssemblyInfoInputs.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ReCapProject/DataAccess/obj/Debug/net7.0/DataAccess.AssemblyInfo.cs
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ReCapProject/DataAccess/obj/Debug/net7.0/DataAccess.csproj.CoreCompileInputs.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ReCapProject/DataAccess/obj/Debug/net7.0/DataAccess.csproj.CopyComplete
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ReCapProject/DataAccess/obj/Debug/net7.0/DataAccess.dll
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ReCapProject/DataAccess/obj/Debug/net7.0/refint/DataAccess.dll
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ReCapProject/DataAccess/obj/Debug/net7.0/DataAccess.pdb
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ReCapProject/DataAccess/obj/Debug/net7.0/DataAccess.genruntimeconfig.cache
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ReCapProject/DataAccess/obj/Debug/net7.0/ref/DataAccess.dll

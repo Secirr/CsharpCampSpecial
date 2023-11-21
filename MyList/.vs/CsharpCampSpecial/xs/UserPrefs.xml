@@ -2,49 +2,38 @@
   <MonoDevelop.Ide.ItemProperties.GameProject PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.OOP-2-LiveLesson PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../GameProject/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../LinqProject/Program.cs">
     <Files>
-      <File FileName="../OOP-3-LiveLesson/ApplicationManager.cs" />
-      <File FileName="../OOP-3-LiveLesson/DatabaseLoggerService.cs" />
-      <File FileName="../OOP-3-LiveLesson/EntrepreneurCreditManager.cs" />
-      <File FileName="../OOP-3-LiveLesson/FileLoggerService.cs" />
+      <File FileName="../OOP-3-LiveLesson/ApplicationManager.cs" Line="1" Column="1" />
+      <File FileName="../OOP-3-LiveLesson/DatabaseLoggerService.cs" Line="1" Column="1" />
+      <File FileName="../OOP-3-LiveLesson/EntrepreneurCreditManager.cs" Line="1" Column="1" />
+      <File FileName="../OOP-3-LiveLesson/FileLoggerService.cs" Line="1" Column="1" />
       <File FileName="../OOP-3-LiveLesson/HouseCreditManager.cs" />
       <File FileName="../OOP-3-LiveLesson/ICreditManager.cs" />
       <File FileName="../OOP-3-LiveLesson/PersonelCreditManager.cs" />
-      <File FileName="../OOP-3-LiveLesson/Program.cs" Line="8" Column="1" />
+      <File FileName="../OOP-3-LiveLesson/Program.cs" />
       <File FileName="../OOP-3-LiveLesson/SmsLoggerService.cs" />
       <File FileName="../GameProject/Program.cs" Line="20" Column="18" />
-      <File FileName="../GameProject/Gamer.cs" Line="17" Column="1" />
-      <File FileName="../GameProject/GamerRegisterSerive.cs" Line="6" Column="40" />
-      <File FileName="../GameProject/Concrete/GamerRegisterManager.cs" Line="22" Column="14" />
-      <File FileName="../GameProject/Abstract/ICampaignService.cs" Line="12" Column="47" />
-      <File FileName="../GameProject/Entitites/Campaign.cs" Line="11" Column="1" />
-      <File FileName="../GameProject/Concrete/CampaignManager.cs" Line="8" Column="6" />
-      <File FileName="../GameProject/Abstract/ISaleService.cs" Line="8" Column="21" />
-      <File FileName="../GameProject/Concrete/SaleManager.cs" Line="7" Column="30" />
-      <File FileName="../ClassMetotDemo/Program.cs" Line="2" Column="1" />
-      <File FileName="../GameProject/Abstract/GamerValidationService.cs" Line="4" Column="20" />
-      <File FileName="../GameProject/Concrete/GamerValidationManager.cs" Line="6" Column="44" />
+      <File FileName="../GameProject/Concrete/GamerRegisterManager.cs" />
+      <File FileName="../GameProject/Abstract/ICampaignService.cs" />
+      <File FileName="../GameProject/Entitites/Campaign.cs" />
+      <File FileName="../GameProject/Concrete/CampaignManager.cs" />
+      <File FileName="../ClassMetotDemo/Program.cs" />
+      <File FileName="../GameProject/Concrete/GamerValidationManager.cs" />
+      <File FileName="../LinqProject/Program.cs" Line="44" Column="19" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="CsharpCampSpecial" expanded="True">
-            <Node name="GameProject">
-              <Node name="Abstract" expanded="True" />
-              <Node name="Concrete" expanded="True" />
-              <Node name="Entitites" expanded="True" />
-              <Node name="Program.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
+        <State name="__root__" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.OOP-3-LiveLesson PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.MyList-homework PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.LinqProject PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.LinqProject PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
