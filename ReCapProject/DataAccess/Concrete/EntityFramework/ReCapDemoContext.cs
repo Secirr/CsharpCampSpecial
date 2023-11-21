@@ -12,7 +12,7 @@ namespace DataAccess.Concrete.EntityFramework
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) //override onConfiguring
         {
 
-            optionsBuilder.UseSqlServer(@"Server=localhost,1433;Database=ReCapDemoDb;User Id=SA;Password=reallyStrongPwd123;TrustServerCertificate =True");
+            optionsBuilder.UseSqlServer(@"Server=localhost,1433;Database=ReCapDemo;User Id=SA;Password=reallyStrongPwd123;TrustServerCertificate =True");
 
         }
 
