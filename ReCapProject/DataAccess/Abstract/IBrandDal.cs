@@ -1,11 +1,10 @@
 ﻿using System;
+using Entities.Concrete;
+
 namespace DataAccess.Abstract
 {
-	public class IBrandDal
-	{
-		public IBrandDal()
-		{
-		}
+	public interface IBrandDal : IEntityRepository<Brand>
+	{	
 	}
 }
 

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq.Expressions;
 using DataAccess.Abstract;
 using Entities.Concrete;
 
@@ -42,11 +43,6 @@ namespace DataAccess.Concrete.InMemory
             CarToUpdate.DailyPrice = car.DailyPrice;
             CarToUpdate.Description = car.Description;
 
-
-            
-
-      
-
         }
 
         public void Delete(int id)
@@ -54,6 +50,21 @@ namespace DataAccess.Concrete.InMemory
             
             Car CarToDelete = _cars.SingleOrDefault(c => c.Id == id);
             _cars.Remove(CarToDelete);
+        }
+
+        public List<Car> GetAll(Expression<Func<Car, bool>> filter = null)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Car Get(Expression<Func<Car, bool>> filter)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Delete(Car entity)
+        {
+            throw new NotImplementedException();
         }
     }
 }
