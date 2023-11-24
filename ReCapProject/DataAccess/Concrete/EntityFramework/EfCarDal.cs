@@ -54,7 +54,7 @@ namespace DataAccess.Concrete.EntityFramework
         {
             using (ReCapDemoContext context = new ReCapDemoContext()) //Garbec Collector using'i işi bitince hemen siler ve performans artar
             {
-                return context.Set<Car>().SingleOrDefault(filter); // Car tablosundan filtre uygulanmış olarak bir tane veri getir.
+                return context.Set<Car>().SingleOrDefault(filter); // Car tablosundan filtre uygulanmış olarak bir tane veri getir. Bussiness ta filtre boş geçilemez.
             }
         }
 

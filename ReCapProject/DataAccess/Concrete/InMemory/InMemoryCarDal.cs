@@ -18,15 +18,7 @@ namespace DataAccess.Concrete.InMemory
             };
         }
 
-        public List<Car> GetAll()
-        {
-            return _cars;
-        }
-
-        public Car GetById(int Id)
-        {
-            return _cars.SingleOrDefault(c => c.Id == Id);
-        }
+        
 
         public void Add(Car car)
         {
@@ -54,17 +46,23 @@ namespace DataAccess.Concrete.InMemory
 
         public List<Car> GetAll(Expression<Func<Car, bool>> filter = null)
         {
-            throw new NotImplementedException();
+            return _cars;
         }
 
         public Car Get(Expression<Func<Car, bool>> filter)
         {
-            throw new NotImplementedException();
+            return _cars.SingleOrDefault();
         }
 
         public void Delete(Car entity)
         {
             throw new NotImplementedException();
+        }
+
+     
+        public Car Get(int Id)
+        {
+            return _cars.SingleOrDefault(c => c.Id == Id);
         }
     }
 }
