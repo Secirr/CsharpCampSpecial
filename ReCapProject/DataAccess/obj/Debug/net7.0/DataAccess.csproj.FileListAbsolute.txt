@@ -15,3 +15,5 @@
 /Users/kadirozdemir/Desktop/CsharpCampSpecial/ReCapProject/DataAccess/obj/Debug/net7.0/DataAccess.pdb
 /Users/kadirozdemir/Desktop/CsharpCampSpecial/ReCapProject/DataAccess/obj/Debug/net7.0/DataAccess.genruntimeconfig.cache
 /Users/kadirozdemir/Desktop/CsharpCampSpecial/ReCapProject/DataAccess/obj/Debug/net7.0/ref/DataAccess.dll
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ReCapProject/DataAccess/bin/Debug/net7.0/Core.dll
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ReCapProject/DataAccess/bin/Debug/net7.0/Core.pdb

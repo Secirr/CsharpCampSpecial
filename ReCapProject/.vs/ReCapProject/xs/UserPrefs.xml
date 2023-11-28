@@ -1,48 +1,62 @@
 ﻿<Properties StartupConfiguration="{E8F5AD73-294C-4165-B518-83547AEA305B}|Default">
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Business/Abstract/ICarService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccess/Concrete/EntityFramework/ReCapDemoContext.cs">
     <Files>
-      <File FileName="DataAccess/Concrete/EntityFramework/ReCapDemoContext.cs" Line="21" Column="45" />
-      <File FileName="DataAccess/Concrete/EntityFramework/EfColorDal.cs" Line="37" Column="51" />
-      <File FileName="DataAccess/Concrete/EntityFramework/EfCarDal.cs" Line="57" Column="166" />
-      <File FileName="DataAccess/Concrete/EntityFramework/EfBrandDal.cs" Line="46" Column="75" />
-      <File FileName="DataAccess/Abstract/IBrandDal.cs" Line="1" Column="1" />
-      <File FileName="DataAccess/Abstract/ICarDal.cs" Line="1" Column="1" />
-      <File FileName="DataAccess/Abstract/IColorDal.cs" Line="1" Column="1" />
-      <File FileName="DataAccess/Abstract/IEntityRepository.cs" Line="17" Column="1" />
-      <File FileName="Business/Concrete/CarManager.cs" Line="30" Column="1" />
-      <File FileName="Business/Abstract/ICarService.cs" Line="10" Column="11" />
-      <File FileName="ConsoleUI/Program.cs" Line="13" Column="18" />
-      <File FileName="Entities/Concrete/Car.cs" Line="16" Column="32" />
-      <File FileName="DataAccess/Concrete/InMemory/InMemoryCarDal.cs" Line="58" Column="10" />
-      <File FileName="Entities/Concrete/Brand.cs" Line="1" Column="1" />
-      <File FileName="Entities/Concrete/Color.cs" Line="1" Column="1" />
+      <File FileName="DataAccess/Concrete/EntityFramework/ReCapDemoContext.cs" Line="17" Column="10" />
+      <File FileName="DataAccess/Concrete/EntityFramework/EfColorDal.cs" Line="8" Column="53" />
+      <File FileName="DataAccess/Concrete/EntityFramework/EfCarDal.cs" Line="29" Column="41" />
+      <File FileName="DataAccess/Concrete/EntityFramework/EfBrandDal.cs" Line="12" Column="1" />
+      <File FileName="DataAccess/Abstract/IBrandDal.cs" Line="7" Column="36" />
+      <File FileName="DataAccess/Abstract/ICarDal.cs" Line="8" Column="51" />
+      <File FileName="DataAccess/Abstract/IColorDal.cs" Line="8" Column="41" />
+      <File FileName="DataAccess/Abstract/IEntityRepository.cs" Line="12" Column="3" />
+      <File FileName="Business/Concrete/CarManager.cs" Line="29" Column="12" />
+      <File FileName="Business/Abstract/ICarService.cs" Line="2" Column="1" />
+      <File FileName="ConsoleUI/Program.cs" Line="44" Column="16" />
+      <File FileName="Entities/Concrete/Car.cs" Line="16" Column="25" />
+      <File FileName="DataAccess/Concrete/InMemory/InMemoryCarDal.cs" Line="9" Column="39" />
+      <File FileName="Entities/Concrete/Brand.cs" Line="8" Column="20" />
+      <File FileName="Entities/Concrete/Color.cs" Line="8" Column="25" />
+      <File FileName="Core/Entities/IEntity.cs" Line="10" Column="1" />
+      <File FileName="Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" Line="52" Column="1" />
+      <File FileName="Entities/DTOs/CarDetailDto.cs" Line="17" Column="1" />
+      <File FileName="Core/Entities/IDto.cs" Line="3" Column="92" />
+      <File FileName="Business/Abstract/IBrandService.cs" Line="4" Column="1" />
+      <File FileName="Business/Concrete/BrandManager.cs" Line="36" Column="50" />
+      <File FileName="Business/Abstract/IColorService.cs" Line="13" Column="1" />
+      <File FileName="Business/Concrete/ColorManager.cs" Line="43" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ReCapProject" expanded="True">
-            <Node name="Business" expanded="True">
-              <Node name="Abstract" expanded="True">
-                <Node name="ICarService.cs" selected="True" />
+            <Node name="Core" expanded="True">
+              <Node name="DataAccess" expanded="True">
+                <Node name="EntityFramework" expanded="True" />
+              </Node>
+              <Node name="Entities" expanded="True" />
+            </Node>
+            <Node name="DataAccess" expanded="True">
+              <Node name="Abstract" expanded="True" />
+              <Node name="Concrete" expanded="True">
+                <Node name="EntityFramework" expanded="True">
+                  <Node name="ReCapDemoContext.cs" selected="True" />
+                </Node>
+                <Node name="InMemory" expanded="True" />
               </Node>
             </Node>
-            <Node name="DataAccess">
-              <Node name="Abstract" expanded="True" />
-            </Node>
-            <Node name="Entities" expanded="True">
-              <Node name="Abstract" expanded="True" />
-              <Node name="Concrete" expanded="True" />
+            <Node name="Entities">
+              <Node name="DTOs" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
 </Properties>

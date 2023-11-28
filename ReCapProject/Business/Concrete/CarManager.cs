@@ -2,6 +2,7 @@
 using Business.Abstract;
 using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 
 namespace Business.Concrete
 {
@@ -28,9 +29,24 @@ namespace Business.Concrete
            
         }
 
+        public void Delete(Car car)
+        {
+            _cardal.Delete(car);
+        }
+
+        public void Update(Car car)
+        {
+            _cardal.Update(car);
+        }
+
         public List<Car> GetAll()
         {
             return _cardal.GetAll();
+        }
+
+        public List<CarDetailDto> GetCarDetailDtos()
+        {
+            return _cardal.GetCarDetails(); //Bu metotta 3 tablonun joinleri ile istenilen veriler çekilmiştir(Cars,Brands,Colors) 
         }
 
         public Car GetCarsByBrandId(int id)
@@ -40,7 +56,12 @@ namespace Business.Concrete
 
         public Car GetCarsByColorId(int id)
         {
-            return _cardal.Get(c => c.ColorId == id);
+            return _cardal.Get(c=> c.ColorId == id);
+        }
+
+        public Car Get(int id)
+        {
+            return _cardal.Get(c=> c.Id == id);
         }
     }
 }

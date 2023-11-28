@@ -1,64 +1,38 @@
-﻿using System;
-using System.Linq.Expressions;
+﻿using Core.DataAccess.EntityFramework;
 using DataAccess.Abstract;
-using Entities.Abstract;
 using Entities.Concrete;
-using Microsoft.EntityFrameworkCore;
+using Entities.DTOs;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfCarDal : ICarDal
+    public class EfCarDal : EfEntityRepositoryBase<Car, ReCapDemoContext>, ICarDal
     {
-        public void Add(Car entity) //Veri kaynağında car gönder
+        public List<CarDetailDto> GetCarDetails()
         {
-            using (ReCapDemoContext context = new ReCapDemoContext()) //Garbec Collector using'i işi bitince hemen siler ve performans artar
+            //Base de yapılan işlemlerin aynısını araba detayı için burada yazdık.
+            //Burası base içinde yazmadık çünkü manuel olarak olası değişimleri kolayca buradan yapacağız.
+            //İş sınıfı bu metodu çağırdığı zaman neler geleceğini belirledik.
+            using (ReCapDemoContext context = new ReCapDemoContext())
             {
-                var addedEntity = context.Entry(entity); //Veri kaynağındaki nesnenin referansını yakala
-                addedEntity.State = EntityState.Added; //Bu bir eklenecek nesne
-                context.SaveChanges(); // Ekle
+                var result = from c in context.Cars  //sql yolu belirtmek için newlediğimiz context'i tablonun başında belirttik.
+                             join b in context.Brands //brands tablosunu joinlemek istediğimizi belirttik
+                             on c.BrandId equals b.Id  //kural olarak BrandID yi kullandık çünkü brand tablosunun primary key'i BrandId
+                             join cr in context.Colors //colors tablosunu joinlemek istediğimizi belirttik
+                             on c.ColorId equals cr.Id //kural olarak ColorId yi kullandık çünkü colors tablosunun primary key'i ColorId
+                             //sql deki = yerine equals kullanılır
+                             select new CarDetailDto {
+                                                       CarName = c.Name,
+                                                       BrandName = b.Name,
+                                                       ColorName = cr.Name,
+                                                       DailyPrice = c.DailyPrice
+                                                     }; //Hangi verileri hangi tablodan çekeceğimizi belirttik.
+                return result.ToList(); //Listeleyerek bunların Bussiness katmanında Liste olarak çekilebilmesini sağladık.
+                               
             }
         }
 
-        public void Delete(Car entity)
-        {
-            using (ReCapDemoContext context = new ReCapDemoContext()) //Garbec Collector using'i işi bitince hemen siler ve performans artar
-            {
-                var deletedEntity = context.Entry(entity); //Veri kaynağındaki nesnenin referansını yakala
-                deletedEntity.State = EntityState.Deleted; //Bu bir silinecek nesne
-                context.SaveChanges(); // Sil
-            }
-        }
-
-        public void Update(Car entity)
-        {
-            using (ReCapDemoContext context = new ReCapDemoContext()) //Garbec Collector using'i işi bitince hemen siler ve performans artar
-            {
-                var updatedEntity = context.Entry(entity); //Veri kaynağındaki nesnenin referansını yakala
-                updatedEntity.State = EntityState.Modified; //Bu bir güncellenecek nesne
-                context.SaveChanges(); // Güncelle
-            }
-        }
-
-        public List<Car> GetAll(Expression<Func<Car, bool>> filter = null) //Filtre null da olabilir
-        {
-            using (ReCapDemoContext context = new ReCapDemoContext()) //Garbec Collector using'i işi bitince hemen siler ve performans artar
-            {
-                return filter == null // Filtre null mu?
-                    ? context.Set<Car>().ToList() //evetse Veri tabanındaki Car tablosunu listeye çevir ve verilerini getir
-                    : context.Set<Car>().Where(filter).ToList(); //Değilse datayı filtreleyip getir.
-            }
-        }
-
-
-        public Car Get(Expression<Func<Car, bool>> filter)
-        {
-            using (ReCapDemoContext context = new ReCapDemoContext()) //Garbec Collector using'i işi bitince hemen siler ve performans artar
-            {
-                return context.Set<Car>().SingleOrDefault(filter); // Car tablosundan filtre uygulanmış olarak bir tane veri getir. Bussiness ta filtre boş geçilemez.
-            }
-        }
-
-       
+        //Tablolarımızın hepsini istenilen veriler doğrultusunda joinledik. (Car,Brand,Color)
+        
     }
 }
 

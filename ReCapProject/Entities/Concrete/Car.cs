@@ -1,5 +1,5 @@
 ﻿using System;
-using Entities.Abstract;
+using Core.Entities;
 
 namespace Entities.Concrete
 {
@@ -13,7 +13,7 @@ namespace Entities.Concrete
 
         public string Name { get; set; }
 
-        public DateTime ModelYear { get; set; }
+        public DateTime? ModelYear { get; set; }
 
         public decimal DailyPrice { get; set; }
 

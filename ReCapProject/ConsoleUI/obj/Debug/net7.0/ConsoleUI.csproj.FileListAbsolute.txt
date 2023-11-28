@@ -67,3 +67,5 @@
 /Users/kadirozdemir/Desktop/CsharpCampSpecial/ReCapProject/ConsoleUI/obj/Debug/net7.0/ConsoleUI.pdb
 /Users/kadirozdemir/Desktop/CsharpCampSpecial/ReCapProject/ConsoleUI/obj/Debug/net7.0/ConsoleUI.genruntimeconfig.cache
 /Users/kadirozdemir/Desktop/CsharpCampSpecial/ReCapProject/ConsoleUI/obj/Debug/net7.0/ref/ConsoleUI.dll
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ReCapProject/ConsoleUI/bin/Debug/net7.0/Core.dll
+/Users/kadirozdemir/Desktop/CsharpCampSpecial/ReCapProject/ConsoleUI/bin/Debug/net7.0/Core.pdb

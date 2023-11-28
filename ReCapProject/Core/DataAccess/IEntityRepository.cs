@@ -1,17 +1,15 @@
 ﻿using System;
 using System.Linq.Expressions;
-using Entities.Abstract;
-using Entities.Concrete;
+using Core.Entities;
 
-namespace DataAccess.Abstract
+namespace Core.DataAccess
 {
 
     //Generic Constract
     //Class : Referans tip olabilir
     //IEntity : IEntity ya da onu implemente eden bir nesne olabilir.
-	public interface IEntityRepository<T> where T:class, IEntity, new() //Referans tip olabilir(class), IEntity ya da implemente eden nesnesi olabilir. Newlenebilir yani interface kullanamaz
+	public interface IEntityRepository<T> where T:class, IEntity, new() //Referans tip olabilir(class), IEntity imzasını taşımalı. Newlenebilir( yani interface kullanamaz)
 	{
-
         List<T> GetAll(Expression<Func<T,bool>> filter = null); //Expression Linq sorguları ile filtre yapabilmemizi sağlar.
 
         T Get(Expression<Func<T, bool>> filter);
