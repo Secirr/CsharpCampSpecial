@@ -45,6 +45,15 @@ namespace Core.DataAccess.EntityFramework
             }
         }
 
+
+        public TEntity Get(Expression<Func<TEntity, bool>> filter) //filtre null olamaz | Car,Brand,Color ... Bütün EntityFrameworkDataAccesLayer(Ef..Dal) katmanları generik olarak kullanabilir
+        {
+            using (TContext context = new TContext()) //Yapılan iş bitince performanslı bir çalışma için Garbec Collector'e 
+            {                                         //using kodu ile burayı belirtiyoruz o da hemen burayı siliyor.)
+                return context.Set<TEntity>().SingleOrDefault(filter); // Belirtilen(TEntity) tablodan filtre uygulanmış olarak bir tane veri getir. Bussiness ta filtre boş geçilemez.
+            }
+        }
+
         public List<TEntity> GetAll(Expression<Func<TEntity, bool>> filter = null) //Filtre null da olabilir | Car,Brand,Color ... Bütün EntityFrameworkDataAccesLayer(Ef..Dal) katmanları generik olarak kullanabilir
         {
             using (TContext context = new TContext()) //Yapılan iş bitince performanslı bir çalışma için Garbec Collector'e 
@@ -52,15 +61,6 @@ namespace Core.DataAccess.EntityFramework
                 return filter == null // Filtre null mu?
                     ? context.Set<TEntity>().ToList() //evetse: Veri tabanındaki belirtilen(TEntity) tobloyu listeye çevir ve verilerini getir
                     : context.Set<TEntity>().Where(filter).ToList(); //Değilse: datayı filtreleyip getir.
-            }
-        }
-
-
-        public TEntity Get(Expression<Func<TEntity, bool>> filter) //filtre null olamaz | Car,Brand,Color ... Bütün EntityFrameworkDataAccesLayer(Ef..Dal) katmanları generik olarak kullanabilir
-        {
-            using (TContext context = new TContext()) //Yapılan iş bitince performanslı bir çalışma için Garbec Collector'e 
-            {                                         //using kodu ile burayı belirtiyoruz o da hemen burayı siliyor.)
-                return context.Set<TEntity>().SingleOrDefault(filter); // Belirtilen(TEntity) tablodan filtre uygulanmış olarak bir tane veri getir. Bussiness ta filtre boş geçilemez.
             }
         }
     }

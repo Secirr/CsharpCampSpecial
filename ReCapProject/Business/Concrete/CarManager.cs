@@ -1,6 +1,9 @@
 ﻿using System;
 using Business.Abstract;
+using Business.Constants;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
+using DataAccess.Concrete.EntityFramework;
 using Entities.Concrete;
 using Entities.DTOs;
 
@@ -16,53 +19,60 @@ namespace Business.Concrete
             _cardal = carDal;
         }
 
-        public void Add(Car car)
+        public IResult Add(Car car)
         {
-            if (car.Name.Length > 2 && car.DailyPrice > 0)
+            if (car.Name.Length < 2)
             {
-                _cardal.Add(car);
+                return new ErrorResult(Messages.CarNameInvalid);
             }
-            else
+            else if (car.DailyPrice <= 0)
             {
-                throw new DuplicateWaitObjectException("the product could not be added because it did not meet the requirements");
+                return new ErrorResult(Messages.DailyPriceError);
             }
+
+            _cardal.Add(car);
+
+            return new SuccessResult(Messages.CarAdded);
            
         }
 
-        public void Delete(Car car)
+        public IResult Delete(Car car)
         {
             _cardal.Delete(car);
+            return new SuccessResult();
         }
 
-        public void Update(Car car)
+        public IResult Update(Car car)
         {
             _cardal.Update(car);
+            return new SuccessResult();
+        }
+       
+        public IDataResult<List<CarDetailDto>> GetCarDetailDtos()
+        {
+            return new SuccesDataResult<List<CarDetailDto>>(_cardal.GetCarDetails(), Messages.CarList); //Bu metotta 3 tablonun joinleri ile istenilen veriler çekilmiştir(Cars,Brands,Colors) 
         }
 
-        public List<Car> GetAll()
+        public IDataResult<Car> GetCarsByBrandId(int id)
         {
-            return _cardal.GetAll();
+            return new SuccesDataResult<Car>(_cardal.Get(c=> c.BrandId == id));
         }
 
-        public List<CarDetailDto> GetCarDetailDtos()
+        public IDataResult<Car> GetCarsByColorId(int id)
         {
-            return _cardal.GetCarDetails(); //Bu metotta 3 tablonun joinleri ile istenilen veriler çekilmiştir(Cars,Brands,Colors) 
+            return new SuccesDataResult<Car>(_cardal.Get(c=> c.ColorId == id));
         }
 
-        public Car GetCarsByBrandId(int id)
+        public IDataResult<Car> Get(int id)
         {
-            return _cardal.Get(c=> c.BrandId == id);
+            return new SuccesDataResult<Car>(_cardal.Get(c=> c.Id == id));
         }
 
-        public Car GetCarsByColorId(int id)
+        public IDataResult<List<Car>> GetAll()
         {
-            return _cardal.Get(c=> c.ColorId == id);
+            return new SuccesDataResult<List<Car>>(_cardal.GetAll(), Messages.CarList);
         }
 
-        public Car Get(int id)
-        {
-            return _cardal.Get(c=> c.Id == id);
-        }
     }
 }
 

@@ -1,26 +1,31 @@
 ﻿using System;
+using Core.Utilities.Results;
 using Entities.Concrete;
 using Entities.DTOs;
 
 namespace Business.Abstract
 {
+
+	//Data Dönen değerlerde IDataResult
+	//Data Dönmeyen yerlerde(void) IResult
 	public interface ICarService
 	{
-		List<Car> GetAll();
+		IDataResult<List<Car>> GetAll(); //Liste = Liste olarak data döner bir data dönüşü var yani IDataResult
 
-		List<CarDetailDto> GetCarDetailDtos(); //İstenilen Joinleri ile verileri Liste olarak içeren tablonun metodu
+		IDataResult<List<CarDetailDto>> GetCarDetailDtos(); //İstenilen Joinleri ile verileri Liste olarak içeren tablonun metodu
 
-		Car Get(int id);
+		IDataResult<Car> Get(int id);  //Car türünde veri dönüyor yani IDataResult
 
-		Car GetCarsByBrandId(int id);
+        IDataResult<Car> GetCarsByBrandId(int id); //Car türünde veri dönüyor yani IDataResult
 
-		Car GetCarsByColorId(int id);
+        IDataResult<Car> GetCarsByColorId(int id); //Car türünde veri dönüyor yani IDataResult
 
-		void Add(Car car);
+        IResult Add(Car car); //Bir değer döndürmeyen metot yani void, bu durumda sadece succes controlü yapılabilir bu yüzden IResult
 
-		void Delete(Car car);
+        IResult Delete(Car car); //Bir değer döndürmeyen metot yani void, bu durumda sadece succes controlü yapılabilir bu yüzden IResult
 
-		void Update(Car car);
+        IResult Update(Car car); //Bir değer döndürmeyen metot yani void, bu durumda sadece succes controlü yapılabilir bu yüzden IResult
+
     }
 }
 
