@@ -53,14 +53,15 @@ namespace Business.Concrete
             return new SuccesDataResult<List<CarDetailDto>>(_cardal.GetCarDetails(), Messages.CarList); //Bu metotta 3 tablonun joinleri ile istenilen veriler çekilmiştir(Cars,Brands,Colors) 
         }
 
-        public IDataResult<Car> GetCarsByBrandId(int id)
+        public IDataResult<List<Car>> GetCarsByBrandId(int id)
         {
-            return new SuccesDataResult<Car>(_cardal.Get(c=> c.BrandId == id));
+            var result = _cardal.GetAll(c => c.BrandId == id);
+            return new SuccesDataResult<List<Car>>(result);
         }
 
-        public IDataResult<Car> GetCarsByColorId(int id)
+        public IDataResult<List<Car>> GetCarsByColorId(int id)
         {
-            return new SuccesDataResult<Car>(_cardal.Get(c=> c.ColorId == id));
+            return new SuccesDataResult<List<Car>>(_cardal.GetAll(c=> c.ColorId == id));
         }
 
         public IDataResult<Car> Get(int id)

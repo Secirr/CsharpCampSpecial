@@ -24,9 +24,9 @@ namespace WebAPI.Controllers
             var result = _carService.GetAll(); //getAll servisini çağırıp onu kullanabilmek için result değişkenine atıyoruz
             if (result.Success) //result değişkeninin başarılı olup olmadığı kontrolü
             {
-                return Ok(result); //OK = 200 Kodu (Başarılı oldu anlamında)
+                return Ok(result); //OK = 200 Kodu (Başarılı oldu anlamında) Sunucunun isteği başarılı bir şekilde aldığını, işlediğini ve başarılı bir şekilde istenen cevabı döndüğünü (işlemin başarılı olduğunu) belirten durum kodudur.Genellikle GET istekleri sonucunda dönen durum kodudur.
             }
-            return BadRequest(result); //BadRequest Başarısız olursa ne gönderileceğini ister.
+            return BadRequest(result); //BadRequest == 400 kodu (Başarısız oldu anlamında) istek ya da tarayıcıdaki bir hata durumunda sunucunun isteği işleyemediğini söylemek amaçlı dönen durum mesajıdır.
 
         }
 
@@ -54,7 +54,7 @@ namespace WebAPI.Controllers
 
         }
 
-        [HttpGet("getCarsByBrandId")]
+        [HttpGet("[action]/{id}")]
         public IActionResult GetCarsByBrandId(int id)
         {
             var result = _carService.GetCarsByBrandId(id);
@@ -66,7 +66,7 @@ namespace WebAPI.Controllers
 
         }
 
-        [HttpGet("getCarsByColorId")]
+        [HttpGet("[action]/{id}")]
         public IActionResult GetCarsByColorId(int id)
         {
             var result = _carService.GetCarsByColorId(id);
@@ -79,7 +79,7 @@ namespace WebAPI.Controllers
         }
 
 
-        [HttpPost("add")]
+        [HttpPost("[action]")]
         public IActionResult Add(Car car)
         {
             var result = _carService.Add(car);
@@ -89,6 +89,7 @@ namespace WebAPI.Controllers
             }
             return BadRequest(result);
         }
+
 
         [HttpPost("delete")]
         public IActionResult Delete(Car car)

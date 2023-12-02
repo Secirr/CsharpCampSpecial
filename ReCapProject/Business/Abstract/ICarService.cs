@@ -16,9 +16,9 @@ namespace Business.Abstract
 
 		IDataResult<Car> Get(int id);  //Car türünde veri dönüyor yani IDataResult
 
-        IDataResult<Car> GetCarsByBrandId(int id); //Car türünde veri dönüyor yani IDataResult
+        IDataResult<List<Car>> GetCarsByBrandId(int id); //Car türünde veri dönüyor yani IDataResult
 
-        IDataResult<Car> GetCarsByColorId(int id); //Car türünde veri dönüyor yani IDataResult
+        IDataResult<List<Car>> GetCarsByColorId(int id); //Car türünde veri dönüyor yani IDataResult
 
         IResult Add(Car car); //Bir değer döndürmeyen metot yani void, bu durumda sadece succes controlü yapılabilir bu yüzden IResult
 

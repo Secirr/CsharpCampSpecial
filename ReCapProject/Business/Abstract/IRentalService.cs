@@ -6,8 +6,8 @@ namespace Business.Abstract
 {
 	public interface IRentalService
 	{
-        IResult Add(Car car, int customerId);
-
+        IResult Add(Rental rental);
+        IDataResult<List<Rental>> GetAll();
     }
 }
 

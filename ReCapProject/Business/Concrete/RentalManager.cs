@@ -13,40 +13,31 @@ namespace Business.Concrete
 	{
         IRentalDal _rentalDal; //injection
 
-        ICarService _carService; //injection
-
-        public RentalManager(IRentalDal rentalDal, ICarService carService) 
+        public RentalManager(IRentalDal rentalDal) 
         {
             _rentalDal = rentalDal; 
-            _carService = carService; 
         }
 
-        public IResult Add(Car car, int customerId) //kullanıcıdan car tipinde bir parametre ve bir int değerinde Id istiyoruz.
+        public IResult Add(Rental rental) 
         {
-            if (car.IsAvailable == false || car.IsAvailable == null) //IsAvailable false ya da IsAvailable Null ise araba kiralanamaz.
+            var result = _rentalDal.Get(r => r.ReturnDate == null && r.CarId == rental.CarId);
+            
+            if (result != null)
             {
-                return new ErrorDataResult<Rental>(Messages.CarNotAvailable); //bu durumda hata mesajını döndürüyoruz. 
+                return new ErrorResult(Messages.CarNotAvailable); //Araba eklenmediği senaryoda "car is not Added" Mesajını döndürüyoruz.
             }
-            
-            var rental = new Rental() //eğer if e girmezse Rental türünde bir rental nesnesi oluşturuyoruz.
-            {
-                                                //oluşturduğumuz nesnenin
-                CarId = car.Id,                 //CarId'si Car nesnesinin Id'sidir.
-                CustomerId = customerId,        //CustomerId'si parametreden gelen customerId'dir.
-                RentDate = DateTime.Now,        //RentDate'i Şuanki güncel bilgisayar saatimizdir.
-                ReturnDate = null,              //ReturnDate'i Null'dır.
-            };
-            _rentalDal.Add(rental);     //oluşturduğumuz nesneyi Veritabanımızı ekliyoruz.
 
-            car.IsAvailable = false; //Araba nesnesinin Kiralanabilir durumu false ise
-           
-            _carService.Update(car); //Update Metodu 
+            _rentalDal.Add(rental);
             return new SuccessResult(Messages.CarAdded); //Araba eklendiği senaryoda "car is Added" Mesajını döndürüyoruz.
-            
+
         }
 
 
-       
+        public IDataResult<List<Rental>> GetAll()
+        {
+            var result = _rentalDal.GetAll();
+            return new SuccesDataResult<List<Rental>>(result);
+        }
     }
 }
 
