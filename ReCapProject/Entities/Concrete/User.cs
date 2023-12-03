@@ -5,8 +5,6 @@ namespace Entities.Concrete
 {
 	public class User : IEntity
 	{
-        //Id,FirstName,LastName,Email,Password
-
         public int Id { get; set; }
 
         public string FirstName { get; set; }

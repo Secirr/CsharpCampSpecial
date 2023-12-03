@@ -5,8 +5,6 @@ namespace Entities.Concrete
 {
 	public class Rental : IEntity
 	{
-        //Id, CarId, CustomerId, RentDate(Kiralama Tarihi),
-        //ReturnDate(Teslim Tarihi). Araba teslim edilmemişse ReturnDate null'dır.
 
         public int Id { get; set; }
 

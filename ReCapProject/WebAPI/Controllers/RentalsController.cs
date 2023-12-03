@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Business.Abstract;
 using Business.Concrete;
 using Entities.Concrete;
+using Entities.DTOs;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -17,15 +18,19 @@ namespace WebAPI.Controllers
     {
         IRentalService _rentalService;
 
-        public RentalsController(IRentalService rentalService)
+        ICarService _carService;
+
+        public RentalsController(IRentalService rentalService, ICarService carService)
         {
             _rentalService = rentalService;
+            _carService = carService;
         }
 
+
         [HttpPost("add")]
-        public IActionResult Add(Rental rental)
+        public IActionResult Add(CarRentalDto carRentalDto)
         {
-            var result = _rentalService.Add(rental);
+            var result = _rentalService.Add(carRentalDto);
             if (result.Success)
             {
                 return Ok(result);
@@ -44,13 +49,8 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-        //var car = carManager.Get(5); //Burada verilen id ye göre araç tablosundan bir araç getirilir.
-        //var item = rentalManager.Add(car.Data, 4); //bir item nesnesi oluşturulur ve rentalMAnager ile arabanın kiralanabilirlik durumu incelenerek
-        //                                           //Kiralanabilir olup olmadığının datası gelir. 
-        //Console.WriteLine(item.Message);           
-
 
 
     }
-}
 
+}

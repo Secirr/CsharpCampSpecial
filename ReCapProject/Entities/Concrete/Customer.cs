@@ -10,7 +10,7 @@ namespace Entities.Concrete
         public int CustomerId { get; set; }
 
         public int  UserId { get; set; }
-        public User user { get; set; } //User tablosu ile ilişki
+        public User? user { get; set; } //User tablosu ile ilişki
    
         public string CompanyName { get; set; }
     }

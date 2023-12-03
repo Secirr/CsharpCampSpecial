@@ -1,62 +1,56 @@
 ﻿<Properties StartupConfiguration="{DDCB0448-387B-4A80-B730-9539BDBF6E2B}|https">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Business/Concrete/RentalManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccess/Concrete/EntityFramework/ReCapDemoContext.cs">
     <Files>
-      <File FileName="Business/Abstract/ICustomerService.cs" Line="10" Column="9" />
-      <File FileName="Business/Abstract/IColorService.cs" Line="1" Column="1" />
-      <File FileName="Business/Abstract/IRentalService.cs" Line="9" Column="46" />
+      <File FileName="Business/Abstract/ICustomerService.cs" />
+      <File FileName="Business/Abstract/IColorService.cs" />
+      <File FileName="Business/Abstract/IRentalService.cs" />
       <File FileName="Business/Concrete/RentalManager.cs" Line="23" Column="1" />
-      <File FileName="DataAccess/Abstract/IRentalDal.cs" Line="10" Column="2" />
-      <File FileName="DataAccess/Abstract/ICarDal.cs" Line="1" Column="1" />
-      <File FileName="DataAccess/Concrete/EntityFramework/EfRentalDal.cs" Line="10" Column="3" />
-      <File FileName="DataAccess/Concrete/EntityFramework/EfCustomerDal.cs" Line="8" Column="95" />
-      <File FileName="Business/Concrete/CustomerManager.cs" Line="1" Column="1" />
-      <File FileName="ConsoleUI/Program.cs" Line="16" Column="27" />
-      <File FileName="Entities/Concrete/User.cs" Line="18" Column="35" />
-      <File FileName="Entities/Concrete/Customer.cs" Line="19" Column="1" />
-      <File FileName="Entities/Concrete/Rental.cs" Line="17" Column="77" />
-      <File FileName="Business/Concrete/CarManager.cs" Line="68" Column="1" />
-      <File FileName="Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" Line="61" Column="1" />
-      <File FileName="Entities/Concrete/Car.cs" Line="20" Column="24" />
-      <File FileName="Business/Abstract/ICarService.cs" Line="29" Column="6" />
-      <File FileName="Core/DataAccess/IEntityRepository.cs" Line="13" Column="61" />
-      <File FileName="Business/Constants/Messages.cs" Line="11" Column="1" />
-      <File FileName="DataAccess/Concrete/EntityFramework/ReCapDemoContext.cs" Line="25" Column="47" />
-      <File FileName="Business/Concrete/ColorManager.cs" Line="1" Column="1" />
-      <File FileName="Business/Concrete/UserManager.cs" Line="1" Column="1" />
+      <File FileName="DataAccess/Abstract/IRentalDal.cs" />
+      <File FileName="DataAccess/Abstract/ICarDal.cs" />
+      <File FileName="DataAccess/Concrete/EntityFramework/EfRentalDal.cs" />
+      <File FileName="DataAccess/Concrete/EntityFramework/EfCustomerDal.cs" />
+      <File FileName="Business/Concrete/CustomerManager.cs" />
+      <File FileName="ConsoleUI/Program.cs" />
+      <File FileName="Entities/Concrete/User.cs" />
+      <File FileName="Entities/Concrete/Customer.cs" />
+      <File FileName="Entities/Concrete/Rental.cs" />
+      <File FileName="Business/Concrete/CarManager.cs" />
+      <File FileName="Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" />
+      <File FileName="Entities/Concrete/Car.cs" />
+      <File FileName="Business/Abstract/ICarService.cs" />
+      <File FileName="Core/DataAccess/IEntityRepository.cs" />
+      <File FileName="Business/Constants/Messages.cs" />
+      <File FileName="DataAccess/Concrete/EntityFramework/ReCapDemoContext.cs" Line="15" Column="154" />
+      <File FileName="Business/Concrete/ColorManager.cs" />
+      <File FileName="Business/Concrete/UserManager.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ReCapProject" expanded="True">
-            <Node name="Business">
-              <Node name="Concrete">
-                <Node name="RentalManager.cs" selected="True" />
-              </Node>
+          <Node name="ReCapProject">
+            <Node name="Business" expanded="True">
+              <Node name="Abstract" expanded="True" />
+              <Node name="Concrete" expanded="True" />
               <Node name="Constants" expanded="True" />
             </Node>
-            <Node name="Core">
-              <Node name="Utilities" expanded="True">
-                <Node name="Results" expanded="True" />
+            <Node name="DataAccess" expanded="True">
+              <Node name="Concrete" expanded="True">
+                <Node name="EntityFramework" expanded="True">
+                  <Node name="ReCapDemoContext.cs" selected="True" />
+                </Node>
               </Node>
-            </Node>
-            <Node name="DataAccess">
-              <Node name="Abstract" expanded="True" />
-              <Node name="Concrete">
-                <Node name="InMemory" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="Entities">
-              <Node name="DTOs" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Google Chrome.app" FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.WebAPI FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
