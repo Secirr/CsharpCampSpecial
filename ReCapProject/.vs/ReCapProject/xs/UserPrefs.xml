@@ -1,28 +1,18 @@
 ﻿<Properties StartupConfiguration="{DDCB0448-387B-4A80-B730-9539BDBF6E2B}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccess/Concrete/EntityFramework/ReCapDemoContext.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Business/Concrete/RentalManager.cs">
     <Files>
-      <File FileName="Business/Abstract/ICustomerService.cs" />
-      <File FileName="Business/Abstract/IColorService.cs" />
-      <File FileName="Business/Abstract/IRentalService.cs" />
-      <File FileName="Business/Concrete/RentalManager.cs" Line="23" Column="1" />
-      <File FileName="DataAccess/Abstract/IRentalDal.cs" />
-      <File FileName="DataAccess/Abstract/ICarDal.cs" />
-      <File FileName="DataAccess/Concrete/EntityFramework/EfRentalDal.cs" />
-      <File FileName="DataAccess/Concrete/EntityFramework/EfCustomerDal.cs" />
-      <File FileName="Business/Concrete/CustomerManager.cs" />
-      <File FileName="ConsoleUI/Program.cs" />
-      <File FileName="Entities/Concrete/User.cs" />
-      <File FileName="Entities/Concrete/Customer.cs" />
-      <File FileName="Entities/Concrete/Rental.cs" />
-      <File FileName="Business/Concrete/CarManager.cs" />
-      <File FileName="Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" />
-      <File FileName="Entities/Concrete/Car.cs" />
-      <File FileName="Business/Abstract/ICarService.cs" />
-      <File FileName="Core/DataAccess/IEntityRepository.cs" />
-      <File FileName="Business/Constants/Messages.cs" />
-      <File FileName="DataAccess/Concrete/EntityFramework/ReCapDemoContext.cs" Line="15" Column="154" />
-      <File FileName="Business/Concrete/ColorManager.cs" />
-      <File FileName="Business/Concrete/UserManager.cs" />
+      <File FileName="Business/Abstract/IRentalService.cs" Line="12" Column="48" />
+      <File FileName="Business/Concrete/RentalManager.cs" Line="28" Column="71" />
+      <File FileName="Entities/Concrete/Car.cs" Line="8" Column="22" />
+      <File FileName="Entities/Concrete/Rental.cs" Line="1" Column="1" />
+      <File FileName="WebAPI/Controllers/RentalsController.cs" Line="32" Column="10" />
+      <File FileName="Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" Line="50" Column="10" />
+      <File FileName="Business/Concrete/CarManager.cs" Line="47" Column="24" />
+      <File FileName="Entities/DTOs/CarRentalDto.cs" Line="10" Column="38" />
+      <File FileName="Entities/DTOs/CarDetailDto.cs" Line="11" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -33,12 +23,22 @@
               <Node name="Concrete" expanded="True" />
               <Node name="Constants" expanded="True" />
             </Node>
+            <Node name="Core" expanded="True">
+              <Node name="DataAccess" expanded="True">
+                <Node name="EntityFramework" expanded="True" />
+              </Node>
+            </Node>
             <Node name="DataAccess" expanded="True">
               <Node name="Concrete" expanded="True">
-                <Node name="EntityFramework" expanded="True">
-                  <Node name="ReCapDemoContext.cs" selected="True" />
-                </Node>
+                <Node name="EntityFramework" expanded="True" />
               </Node>
+            </Node>
+            <Node name="Entities" expanded="True">
+              <Node name="Concrete" expanded="True" />
+              <Node name="DTOs" expanded="True" />
+            </Node>
+            <Node name="WebAPI" expanded="True">
+              <Node name="Controllers" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -46,11 +46,8 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.WebAPI FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
